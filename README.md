@@ -1,122 +1,107 @@
-# Tu Portafolio
+# Your Portfolio 
 
-En este proyecto estarás construyendo tu portafolio para mostrar lo que has construido.
-Tu misión, si decides aceptarla, es desarrollar una página web de tu portafolio.
-Aquí se verán reflejados todos los proyectos que vayas a trabajar en Cognits.
-De esa forma, cuando te pregunten ¿Qué has hecho? Les puedas contestar, mira
-mi portafolio =D. Sigue los siguientes pasos, y al finalizar asegura seguir las
-instrucciones pues el HTML y CSS serán calificados automáticamente.
+In this project you would be building your own portfolio to show your work. Your mission, if you accept it, is to develop a web page of you portfolio. Here you’ll see all the projects you are going to do in Cognits. That way, when someone asks you “What have you done at Cognits” you can answer them with “Check out my portfolio =D”. Follow the following steps, and at the end make sure to follow the instructions after you HTML and CSS had been checked automatically. 
 
-		1. Pre-requisitos
-		2. Fork y clonar repositorio
-		3. Abrir el diseño y analizar
-		4. Escribir código
-		5. Entrega
 
-## 1. Pre-requisitos
+		1. Prerequisites 
+		2. Fork and clone the repository
+		3. Open the design and analyse it
+		4. Write the code
+		5. Hand it
 
-Para completar este proyecto, debes asegurar tener instalado [Git](http://www.git-scm.com),
-[Node.JS](http://www.nodejs.org) y [Gulp](http://www.gulpjs.com).
+## 1. Prerequisites 
 
-Para Linux, lo mejor para hacer es instalar `git` y `nodejs` es usando `apt-get`. Esto sería
-algo cómo:
+To complete this project, you have to make sure you had downloaded [Git](http://www.git-scm.com),
+[Node.JS](http://www.nodejs.org) and [Gulp](http://www.gulpjs.com).
+
+For Linux, the best thing you can do is to install `git` and `nodejs` using `apt-get`. This should look like this:
 
 		sudo apt-get install git
 		sudo apt-get install nodejs
 
 
-Debemos asegurar que se hayan instalado correctamente, corre los siguientes comandos:
+We have to make sure that everything got installed correctly, run the following commands  
 
-		git --version tendria que mostrarte "git version 1.9.1"
-		nodejs -v tendria que mostrarte "v0.10.33"
+		git --it should should you this version "git version 1.9.1"
+		nodejs -v it should show you "v0.10.33"
 
-		Ten en cuenta que las versiones pueden ser superiores así que no te preocupes.
+		The versions might be different so you shouldn't worry about having the exact version.
 
-Luego ejecuta estos comandos asegúrate  de hacerlo en la terminal:
+Then execute the following command (make sure to do it on the terminal):
 
 		sudo apt-get install -y build-essential
 		sudo apt-get install curl
 		curl -sL https://deb.nodesource.com/setup | sudo bash -
 		sudo apt-get install -y nodejs
 
-Para asegurarnos que se instalo correctamente `npm` corre el siguiente comando:
+To make sure that it download correctly `npm` run the following command:
 
-		npm -v tendría que mostrarte "1.4.28"
-		Ten en cuenta que las versiones pueden ser superiores así que no te preocupes.
+		npm -v it should show you "1.4.28"
+		The versions might be different so you shouldn't worry about having the exact version.
 
 
-Por último, con `npm` instalado, debemos instalar Gulp corriendo:
+Lastly, with `npm` installed, we have to download Gulp running the following command:
 
 		sudo npm install -g gulp
 
-Para asegurarnos que se instalo correctamente `gulp` corre el siguiente comando:
+To make sure everything downloaded correctly `gulp` run the following command:
 
-		gulp -v tendría que mostrarte "[14:27:50] CLI version 3.8.10"
+		gulp -v it should show you "[14:27:50] CLI version 3.8.10"
 
-		Ten en cuenta que las versiones pueden ser superiores así que no te preocupes,
-		También puede cambiar la hora ya que mostrara la que tu tienes al momento de 
-		que instales gulp.
+		The versions might be different so you shouldn't worry about having the exact version.
+		Also, the time might change because it is going to show your current time.
 
 
-Si tienes problemas, consulta con tu **coach**.
+If you have a problem, you can ask your **coach**.
 
-## 2. Fork y clonar repositorio
+## 2. Fork and clone the repository
 
-Hacer **Fork** de este repositorio para tu usuario. Luego debes clonar tu repositorio localmente. En el terminal debes ingresar algo como:
+**Fork** the repository for you user. Then you have to clone your repository locally. On the terminal you should write the following code:
 
 		git clone https://github.com/cognits/frontend-portfolio.git
 
-Cambiando *cognits* por tu usuario.
+Changing *cognits* with your username.
 
-## 3. Abrir el diseño y analizar
+## 3. Open the design and analyze it
 
-Una imagen o Photoshop de un diseñador va a ser tu única guía cuando te
-encuentres en un equipo de desarrollo. Esa imagen te dará las guías sobre las cuales
-esperan el software. Eso buscamos hacer aquí! Abre la imagen [portfolio-sketch](portfolio-sketch.png)
-para ver cómo te debe quedar tu página.
+An image of a Photoshop file is going to be your only guide when you are in a development team. This image should give you the guides expected of your software. This is what we are trying to do here! Open the image [portfolio-sketch](portfolio-sketch.png) to see how your page should look like.
 
 
-## 4. Escribir código
+## 4. Write the code
 
-Asegura escribir todo tu código de HTML en [index.html](index.html) y todo tu CSS en [styles.css](css/styles.css). Lo que buscas es reproducir en código la imagen [portfolio-sketch](portfolio-sketch.png) **lo más similar posible.**
+Make sure to write your HTML code in [index.html](index.html) and all of you CSS code in [styles.css](css/styles.css). Through code, you have to make **the closest webpage possible** to the [portfolio-sketch](portfolio-sketch.png) 
 
-### Corriendo los tests localmente
+### Running the tests locally
 
-Para asegurar que tu código no tiene errores, debes correr los tests en tu computadora. Para eso, vamos a usar la herramienta llamada [Gulp](http://www.gulpjs.com) que corre en [Node.JS](http://www.nodejs.org).
+To make sure your code doesn't have an error, you have to run the tests on your computer. For this we are going to use a tool known as [Gulp](http://www.gulpjs.com) that runs in [Node.JS](http://www.nodejs.org).
 
-Si seguiste todos los pasos detallados en [Pre-requisitos](1. Pre-requisitos), usando
-terminal, entra al folder del proyecto. Allí escribe los siguientes comandos:
+If you followed all the asked in [Prerequisites](1. Prerequisites), using the terminal, go to your project's folder. there you should write the following code:
 
 		sudo npm -d install
 
-Luego que se instalan los módulos, corre: `gulp`
+After installing the modules, you have to run: `gulp`
 
-		Nota: Ten en cuenta que si no clonaste el repositorio, desde GitHub 
-		cuando corras "gulp" te ocacionaran errores, asegurate de que realices
-		estos pasos dentro del folder que clonaste desde GitHub. 
+		Note: You should consider that if you did't clone your repository from github, when you run "gulp" you are going to get an error. Make sure that you do all of these steps inside the repository you cloned from GitHub. 
+		
 
-## 5. Entrega
+## 5. Handing the project
 
-Para entregar el proyecto, debemos hacer **commit** de los cambios y luego empujarlos
-a tu repositorio remoto en Github.
+To hand your projecto you have to **commit** the changes and then push to your remote repository on GitHub.
 
-### Commit y Push
+### Commit and Push
 
 		git add .
-		git commit -m 'Terminé el portafolio'
+		git commit -m 'I finished the portfolio'
 
-Luego debemos enviar el código a tu repositorio en Github.
+Then we have to send your code to your GitHub repository.
 
 		git push origin master
 
 
 ### Pull Requests
 
-Luego de tener tus cambios en Github, debes hacer click en el link **Pull Requests**
-que se encuentra en la página de Github de tu proyecto. Luego sigue las
-instrucciones que dan allí.
+After having your changes on GitHub, you have to click on the **Pull Requests** found in the GitHub page of your project. Then follow the instructions that you recieve there. 
 
-## 6. Retroalimentación
+## 6. Retroalimetation
 
-Ahora toca ver el código de tus compañeros y dejar tus comentarios. Entra al
-proyecto de un compañero y haz 3 sugerencias de su código usando **Issues**.
+Now you have to check your colleagues' code and leave your own comments. Go to one of your colleagues' code and leave 3 suggestions to their code **Issues**.
