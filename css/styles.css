@@ -1,3 +1,118 @@
-/*
-Aqui escribe tu codigo de CSS.
-*/
+body {
+	display: block;
+	margin: 20px 65px 65px 65px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.front {
+	font-family: Arial;
+	text-align: right;
+	font-size: 20px;
+	margin-top: -25px;
+}
+
+.cstudent {
+	font-family: Arial;
+	text-align: right;
+	font-size: 35px;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+.studentfront {
+	height: 3em;
+	width: 30em;
+	background-color: white;
+	display: inline-block;
+}
+
+.line {
+	display: block;
+	height: 1px;
+	width:100%;
+	background-color: gray;
+	margin-top: 20px;
+}
+
+.feat {
+	display: block;
+	margin-bottom: -20px;
+}
+
+.feat-one {
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	color: gray;
+}
+
+.link {
+	height: 80px;
+	width: 555px;
+	display: inline-block;
+}
+
+.project {
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.linkproject {
+	text-align: center;
+	color: blue;
+	font-size: 15px;
+	font-family: Arial;
+	margin-top: -20px;
+}
+
+.right {
+	float: right;
+}
+
+.white {
+	color: white;
+	font-size: 300%;
+	line-height: 265px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.guess {
+	background-color: orange;
+}
+
+.factorial {
+	float: right;
+	background-color: black;
+}
+
+.rectangle {
+	width: 555px;
+	height: 300px;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+.cc {
+	background-color: maroon;
+}
+
+.dars {
+	float: right;
+	background-color: red;
+
+}
+
+.linkproject:hover {
+	font-size: 20px;
+	font-weight: bolder;
+}
