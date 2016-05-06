@@ -86,13 +86,13 @@ a {
 	font-family: Arial;
 }
 
-.guess {
-	background-color: orange;
+.factorial {
+	background-color: green;
 }
 
-.factorial {
+.guess {
 	float: right;
-	background-color: black;
+	background-color: red;
 }
 
 .rectangle {
@@ -102,13 +102,13 @@ a {
 	display: inline-block;
 }
 
-.cc {
-	background-color: maroon;
+.countriescapitals {
+	background-color: blue;
 }
 
-.dars {
+.victor {
 	float: right;
-	background-color: red;
+	background-color: black;
 
 }
 
